@@ -1,4 +1,4 @@
-// Example of input 
+// Example of input 1
 #include<stdio.h>
 #include<stdlib.h>
 void main()
