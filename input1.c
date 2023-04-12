@@ -6,7 +6,6 @@ void main()
      int number1;
      float num2;
      char letter;
-
      // number1 = 10;
      // num2 = 20;
      // letter ='p'
