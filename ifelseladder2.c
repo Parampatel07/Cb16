@@ -1,4 +1,4 @@
-// Write a programe build a calc 
+// Write a programe build a calc
 // ->addition
 // ->subtraction
 // ->multiplication
@@ -7,15 +7,15 @@
 // ->max
 // ->min
 // ->equality
-#include<stdio.h>   
+#include <stdio.h>
 void main()
 {
-     int num1,num2,option,answer;
+     int num1, num2, option, answer;
 
      printf("Enter value of num1 ");
-     scanf("%d",&num1);
+     scanf("%d", &num1);
      printf("Enter value of num2 ");
-     scanf("%d",&num2);
+     scanf("%d", &num2);
 
      printf("Enter 1 for addition ");
      printf("\nEnter 2 for subtraction ");
@@ -26,36 +26,36 @@ void main()
      printf("\nEnter 7 for minimum ");
      printf("\nEnter 8 for equality ");
      printf("\nSelect any one option ");
-     scanf("%d",&option);
+     scanf("%d", &option);
 
-     if(option == 1)
+     if (option == 1)
      {
           answer = num1 + num2;
-          printf("the value of answer is %d ",answer);
+          printf("the value of answer is %d ", answer);
      }
-     else if(option == 2)
+     else if (option == 2)
      {
           answer = num1 - num2;
-          printf("the value of answer is %d ",answer);
+          printf("the value of answer is %d ", answer);
      }
-     else if(option==3)
+     else if (option == 3)
      {
-          answer = num1*num2;
-          printf("the value of answer is %d ",answer);
+          answer = num1 * num2;
+          printf("the value of answer is %d ", answer);
      }
-     else if(option==4)
+     else if (option == 4)
      {
           answer = num1 / num2;
-          printf("the value of answer is %d ",answer);
+          printf("the value of answer is %d ", answer);
      }
-     else if(option==5)
+     else if (option == 5)
      {
           answer = num1 % num2;
-          printf("the value of answer is %d ",answer);
+          printf("the value of answer is %d ", answer);
      }
-     else if(option==6)
+     else if (option == 6)
      {
-          if(num1 > num2)
+          if (num1 > num2)
           {
                printf("num1 is greater ");
           }
@@ -64,9 +64,9 @@ void main()
                printf("num2 is greater");
           }
      }
-     else if(option ==7)
+     else if (option == 7)
      {
-          if(num1<num2)
+          if (num1 < num2)
           {
                printf("num1 is smaller");
           }
@@ -75,9 +75,9 @@ void main()
                printf("num2 is smaller");
           }
      }
-     else if(option==8)
+     else if (option == 8)
      {
-          if(num1 == num2)
+          if (num1 == num2)
           {
                printf("num1 and num2 are equal ");
           }
@@ -85,6 +85,10 @@ void main()
           {
                printf("both are not same ");
           }
+     }
+     else
+     {
+          printf("invalid option ");
      }
      printf("\nGoodbyee...");
 }
