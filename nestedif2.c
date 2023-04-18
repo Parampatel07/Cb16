@@ -3,10 +3,8 @@
 void main()
 {
      int month;
-
      printf("Enter value of month ");
      scanf("%d", &month);
-
      if (month > 0 && month < 13)
      {
           if (month <= 7)
@@ -42,5 +40,5 @@ void main()
      else
      {
           printf("invalid month ");
-     }     
+     }
 }
