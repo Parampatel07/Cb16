@@ -50,7 +50,7 @@ syntax
 
     }
     example 
-    for(i=1;i<10;i=i+1)
+    for(count=0;count<5;count++)
     {
 
     }
