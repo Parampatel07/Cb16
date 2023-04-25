@@ -3,14 +3,16 @@
 #include <stdio.h>
 void main()
 {
-     int space = 0, count = 0,flash=0,temp=2;
-     for (space = 0; space < 5; space++)
+     int space = 0, count = 0,flash=0,temp=2,size=0;
+     printf("Enter size of triangle ");
+     scanf("%d",&size);
+     for (space = 0; space < size; space++)
      {
           printf("_");
      }
      printf("*");
      printf("\n");
-     for(flash=4;flash>=0;flash--)
+     for(flash=size-1;flash>=0;flash--)
      {
           for (space = 0; space < flash; space++)
           {
