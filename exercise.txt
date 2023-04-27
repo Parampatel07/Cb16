@@ -61,3 +61,18 @@ Write a programe to print
 *      *
 *        *
 ***********
+
+Write a progame to find sum and average for 1 player for 5 matches 
+
+Write a progame to find sum and average for 1 player for 5 matches also arrange the runs in descending order
+50
+40
+10
+90
+70
+
+90
+70
+50
+40
+10
