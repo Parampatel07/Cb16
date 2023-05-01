@@ -76,3 +76,9 @@ Write a progame to find sum and average for 1 player for 5 matches also arrange 
 50
 40
 10
+
+Write a programe to take input as a name from user and print it 
+
+Write a programe to print your name using ascii value 
+
+Write a programe to findout which office is greater based on area of 2 office (take lenght and width as input from user determine wheter to use a array or not )
