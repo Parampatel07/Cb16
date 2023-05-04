@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 void main()
 {
      int students[5][4], count = 0, flash = 0, sum[5], temp = 0;
