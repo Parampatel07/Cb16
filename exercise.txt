@@ -84,3 +84,6 @@ Write a programe to print your name using ascii value
 Write a programe to findout which office is greater based on area of 2 office (take lenght and width as input from user determine wheter to use a array or not )
 
 Write a programe to take 5 matches runs for 5 player using using multiarray also find sum and average 
+
+Write a programe to find bmi using function and also give cateogry
+https://www.builtlean.com/wp-content/uploads/2013/06/Bmi-chart-1.jpg
